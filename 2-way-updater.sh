@@ -9,6 +9,8 @@ branch=$(git rev-parse --abbrev-ref HEAD)
 
 # Fetch remote refs
 git fetch "$remote"
+git fetch "$remote"
+git fetch "$remote"
 
 # Resolve commit hashes
 local_commit=$(git rev-parse "$branch")
